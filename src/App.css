@@ -1,0 +1,394 @@
+.heart{
+  color: red;
+}
+.navbarr{
+  height: 10%;
+  font-size: 180%;
+  font-weight: bold;
+  scroll-behavior: smooth;
+}
+.hov{
+  margin-left: 4%;
+}
+.hov:hover{
+  background-color: rgba(255, 255, 255, 0.219);
+}
+.hovi{
+  margin-right: 6vw;
+  text-decoration: none;
+}
+.hovi:hover{
+  background-color: rgba(255, 255, 255, 0.219);
+}
+.headerdata{
+  margin-left: 10%;
+  font-size: 150%;
+  margin-right: 1%;
+}
+.slide{
+  max-height: 48.85vw;
+  max-width: 100vw;
+}
+.parallax {
+  margin-top: 35vw;
+  background-image: url('./assests/bg1.jpg');
+  min-height: 500px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.leftbox { 
+  float:left;  
+  width:60%; 
+} 
+
+.rightbox{ 
+  float:right; 
+  width:40%; 
+} 
+.pic{
+  margin-top: 10%;
+  height: 28vw;
+  width: 23vw;
+  border-radius: 50%;
+}
+.Hometext{
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 15%;
+  font-size: larger;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+}
+.Homeheading{
+  font-weight: bolder;
+  font-size: 250%;
+  text-align: center;
+}
+/*===========================*/
+.firstdiv{
+  height: 35vw;
+}
+.otherdiv{
+  background-color: rgb(235, 235, 235);
+  height: 30vw;
+}
+.card{
+  width: 92%;
+  margin: 4%;
+  background-color: rgb(235, 235, 235);
+  border: 0px;
+  margin-top: 2%;
+  text-align: center;
+}
+.heading{
+  font-size: 150%;
+  font-weight: bold;
+  color: rgb(18, 18, 136);
+}
+.headings{
+  font-size: 300%;
+  font-weight: bolder;
+  color: rgb(6, 165, 157);
+  padding-top: 2%;
+  text-align: center;
+}
+
+
+.leftbox1 { 
+  float:left;  
+  width:40%; 
+} 
+
+.rightbox1{ 
+  float:right; 
+  width:60%; 
+} 
+.pic1{
+  margin: 10%;
+  margin-left: 40%;
+  height: 28vw;
+  width: 23vw;
+  border-radius: 50%;
+}
+.Hometext1{
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 15%;
+  font-size: larger;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+}
+.Homeheading1{
+  font-weight: bolder;
+  font-size: 250%;
+  text-align: center;
+}
+.parallax2 {
+  background-image: url('./assests/bg2.jpg');
+  min-height: 500px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.foot1{
+  height: 10vw;
+}
+.leftbox2 { 
+  float:left;  
+  width:60%; 
+} 
+
+.rightbox2{ 
+  float:right; 
+  width:40%; 
+} 
+.parallax3 {
+  background-image: url('./assests/bg3.jpg');
+  min-height: 200px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.thirdtwo{
+  height: 15vw;
+  background-color: rgb(235, 235, 235);
+  text-align: center;
+  font-size: 300%;
+  font-weight: bolder;
+  padding-top: 4%;
+}
+.thirdone{
+  height: 30vw;
+  background-color: rgb(235, 235, 235);
+  text-align: center;
+  font-size: 350%;
+  font-weight: bolder;
+  padding-top: 2%;
+}
+.pic2{
+  margin-top: 10%;
+  height: 28vw;
+  width: 25vw;
+  border-radius: 50%;
+}
+.Homeheading span{
+	color:  lightseagreen;
+}
+.Homeheading1 span{
+	color:  lightseagreen;
+}
+.cap{
+  /* margin-bottom: 30%; */
+  font-size: 900%;
+  font-weight: bolder;
+
+}
+.cap span{
+  color:  lightseagreen;
+
+}
+.capbtn{
+  margin-bottom: 25%;
+  color: rgb(17, 83, 80);
+  font-weight: bolder;
+
+}
+.leftbox3 { 
+  float:left;  
+  width:40%; 
+  margin-left: 5%;
+} 
+.rightbox3{ 
+  float:right; 
+  width:30%; 
+  font-size: 35%;
+  text-align: left;
+  margin-right: 10%;
+} 
+.linkbtn{
+  color: rgb(17, 83, 80);
+}
+.linkbtn:hover{
+  color: rgb(17, 83, 80);
+  text-decoration: none; 
+}
+.picture{
+  height: 60%;
+  border-radius: 20%;
+}
+.intropic{
+  height:30vw;
+  width:99vw;
+}
+.ordercards{
+  height: 5vw;
+  width: 5vw;
+}
+.center{
+  text-align: center;
+  font-size: 350%;
+  font-weight: bolder;
+  color: rgb(1, 136, 136);
+}
+.thumb{
+  margin-top: 4%;
+  height: 8vw;
+  width: 8vw;
+}
+.card2{
+  width: 12vw;
+}
+
+.cardpic{
+  height: 8vw;
+  width: 8vw;
+}
+.box{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+    /* margin-left: 17vw; */
+
+}
+.addbutton{
+  font-weight: bolder;
+}
+.card-title{
+  font-size: 110%;
+  font-weight: bolder;
+}
+.intro{
+  width: 99.1vw;
+  height: 15vw;
+}
+.rectangle {
+  height: 50px;
+  width: 100px;
+  background-color: rgb(85, 85, 85);
+}
+.heading1{
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 400%;
+  font-weight: bolder;
+}
+.heading1 span{
+  color: lightseagreen;
+}
+.collection{
+  border: 2px solid;
+  margin: 1%;
+  padding: 1%;
+  width: 30vw;
+  margin-left: 25vw;
+}
+.item-desc{
+  text-align: center;
+  margin-bottom: 2%;
+}
+.collection-items{
+  border: 2px solid rgb(12, 85, 95);
+}
+.empty{
+  font-size: 100%;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 18vw;
+}
+.order{
+  text-align: center;
+  font-size: 300%;
+  font-weight: bolder;
+  color: rgb(1, 135, 153);
+}
+.card1{
+   width: 18vw; 
+  height: 3vw;
+  /* margin-left: 80%; */
+  /* margin-top: 1%; */
+  background-color: rgb(221, 220, 220);
+  border: 2px solid;
+  text-align: center;
+}
+.container{
+  margin-left: 5vw;
+  
+}
+.containi{
+  /* width: 99vw; */
+  display: flex;
+  text-align: center;
+}
+.table{
+  float: left;
+  width: 20vw;
+  font-size: 140%;
+  font-weight: bolder;
+  margin-left: 8%;
+}
+.addtable{
+  /* font-weight: bolder; */
+  float: right;
+}
+.tablelist{
+  float: left;
+  margin-left: 2%;
+}
+.cart{
+  margin: 10%;
+}
+.container4{
+  margin-left: 10vw;
+  margin-right: 10vw;
+  text-align: center;
+  font-size: 200%;
+  font-weight: bolder;
+}
+.cartimage{
+  width:99vw;
+  height: 25vw;
+}
+.let{
+  text-decoration: none;
+}
+.navi{
+  background-color: rgb(0, 0, 0);
+  font-size: 200%;
+  font-weight: bolder;
+}
+.navii:hover{
+  font-size: 110%;
+}
+.brand{
+  font-size: 220%;
+}
+.homeit{
+  width: 99vw;
+}
+.container6{
+  text-align: center;
+  font-size: 150%;
+}
+.formmain{
+  text-align: center;
+  font-size: 150%;
+  font-weight: bolder;
+  margin-bottom: 3%;
+}
+.formhead{
+  text-align: center;
+  font-size: 340%;
+  font-weight: bolder;
+  color: rgb(7, 116, 79);
+}
+.address{
+  width:25%
+}
