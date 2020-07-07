@@ -7,7 +7,6 @@ import Recipe from './Recipe'
 import AddCircleOutlineIcon from '@material-ui/icons/AddCircleOutline';
 import IconButton from '@material-ui/core/IconButton';
 import RemoveCircleOutlineIcon from '@material-ui/icons/RemoveCircleOutline';
-// import 'materialize-css/dist/css/materialize.min.css'
 import image1 from '../assests/intro.jpg'
 import '../App.css'
 
@@ -26,17 +25,14 @@ class Cart extends Component{
         this.props.subtractQuantity(id);
     }
     render(){
-              
         let addedItems = this.props.items.length ?
             (  
                 this.props.items.map(item=>{
                     return(
-                       
                         <div className="collection-items" key={item.id}>
                                     <div className="item-img"> 
                                         <img className="thumb" src={item.img} alt={item.img} />
                                     </div>
-                                
                                     <div className="item-desc">
                                         <span className="title"><b>{item.title}</b></span>
                                         <p><b>Price: ₹{' '}{item.price}</b></p> 
@@ -48,14 +44,11 @@ class Cart extends Component{
                                             <Link to="/cart"><i className="material-icons" onClick={()=>{this.handleSubtractQuantity(item.id)}}><IconButton><RemoveCircleOutlineIcon/></IconButton></i></Link>
                                         </div>
                                         <Button variant="danger" onClick={()=>{this.handleRemove(item.id)}}>Remove</Button><br></br>
-                                    </div>
-                                    
-                                </div>
-                         
+                                    </div> 
+                                </div>  
                     )
                 })
             ):
-
              (
                  <div className="empty">
                 <p className="empty">Your Cart Is Empty</p>
@@ -85,7 +78,6 @@ class Cart extends Component{
 const mapStateToProps = (state)=>{
     return{
         items: state.addedItems,
-        //addedItems: state.addedItems
     }
 }
 const mapDispatchToProps = (dispatch)=>{

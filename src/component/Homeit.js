@@ -11,7 +11,8 @@ import {Button} from 'react-bootstrap'
 import {Link} from 'react-router-dom'
 
 class Homeit extends Component{
-     notify = () => toast.info("Item Successfully Added To Cart", {
+
+    notify = () => toast.info("Item Successfully Added To Cart", {
     position: "top-center",
     autoClose: 3000,
     hideProgressBar: true,
@@ -19,6 +20,7 @@ class Homeit extends Component{
 
     handleClick = (id)=>{
         this.props.addToCart(id); 
+        console.log(id)
     };
 
     render(){
@@ -72,10 +74,10 @@ class Homeit extends Component{
             </div>
             </div>
             <div className='alert fixed-bottom'>
-<div className='container6'>
-    <Link to="/Cart"><Button variant="info" className="waves-effect waves-light btn btn-lg">Go To The Cart</Button></Link>
-</div>
-</div> 
+            <div className='container6'>
+                <Link to="/Cart"><Button variant="info" className="waves-effect waves-light btn btn-lg">Go To The Cart</Button></Link>
+            </div>
+            </div> 
             </div>
         )
     }
@@ -86,7 +88,6 @@ const mapStateToProps = (state)=>{
     }
   }
 const mapDispatchToProps= (dispatch)=>{
-    
     return{
         addToCart: (id)=>{dispatch(addToCart(id))}
     }
