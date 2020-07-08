@@ -54,10 +54,10 @@
   border-radius: 50%;
 }
 .Hometext{
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 18%;
+  margin-right: 18%;
   margin-top: 15%;
-  font-size: larger;
+  font-size: 110%;
   font-weight: bold;
   font-family: 'Courier New', Courier, monospace;
 }
@@ -113,10 +113,10 @@
   border-radius: 50%;
 }
 .Hometext1{
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 16%;
+  margin-right: 16%;
   margin-top: 15%;
-  font-size: larger;
+  font-size: 110%;
   font-weight: bold;
   font-family: 'Courier New', Courier, monospace;
 }
@@ -310,10 +310,8 @@
   color: rgb(1, 135, 153);
 }
 .card1{
-   width: 20vw; 
+  width: 22vw; 
   height: 3vw;
-  /* margin-left: 80%; */
-  /* margin-top: 1%; */
   background-color: rgb(221, 220, 220);
   border: 2px solid;
   text-align: center;
@@ -323,19 +321,17 @@
   
 }
 .containi{
-  /* width: 99vw; */
   display: flex;
   text-align: center;
 }
 .table{
   float: left;
-  width: 20vw;
+  width: 22vw;
   font-size: 140%;
   font-weight: bolder;
   margin-left: 8%;
 }
 .addtable{
-  /* font-weight: bolder; */
   float: right;
 }
 .tablelist{
