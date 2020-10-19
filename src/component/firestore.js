@@ -1,14 +1,14 @@
 import firebase from 'firebase';
 
 var config = {
-    apiKey: "AIzaSyCJV1-Yv8uDV9tezfZO_OzFaXqGFhBhJFc",
-    authDomain: "hotel-site-dc58d.firebaseapp.com",
-    databaseURL: "https://hotel-site-dc58d.firebaseio.com",
-    projectId: "hotel-site-dc58d",
-    storageBucket: "hotel-site-dc58d.appspot.com",
-    messagingSenderId: "1007622889933",
-    appId: "1:1007622889933:web:7b1cf0b283638a707aa484",
-    measurementId: "G-CPF11YPH92"
+    apiKey: "AIzaSyD8LQPSwZj67RN-TD7mlXJyKHbLrVQo7zQ",
+    authDomain: "grubeats-a791b.firebaseapp.com",
+    databaseURL: "https://grubeats-a791b.firebaseio.com",
+    projectId: "grubeats-a791b",
+    storageBucket: "grubeats-a791b.appspot.com",
+    messagingSenderId: "497864806659",
+    appId: "1:497864806659:web:21e7106b42c76a8b4c1936",
+    measurementId: "G-CPE1GX8BF9"
 };
 
 const firestore = firebase.initializeApp(config);

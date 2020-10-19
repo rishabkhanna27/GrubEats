@@ -1,7 +1,7 @@
 const config = {
-    apiKey: "AIzaSyCJV1-Yv8uDV9tezfZO_OzFaXqGFhBhJFc",
-    authDomain: "hotel-site-dc58d.firebaseapp.com",
-    databaseURL: "https://hotel-site-dc58d.firebaseio.com",
+  apiKey: "AIzaSyD8LQPSwZj67RN-TD7mlXJyKHbLrVQo7zQ",
+  authDomain: "grubeats-a791b.firebaseapp.com",
+  databaseURL: "https://grubeats-a791b.firebaseio.com"
   };
   
   export default config;

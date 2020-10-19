@@ -26,17 +26,14 @@ export class Checkout extends Component {
       addUser = e => {
         e.preventDefault();
         const db = firebase.firestore();
-        db.settings({
-          timestampsInSnapshots: true
-        });
-        const userRef = db.collection("Hotel-site").add({
+        const userRef = db.collection("GrubEats").add({
           fullname: this.state.fullname,
           email: this.state.email,
           pnumber: this.state.pnumber,
           city: this.state.city,
           address: this.state.address
         });  
-        console.log(userRef, firestore);
+        console.log(this.fullname,this.email,this.pnumber,this.city,this.address,firestore,userRef);
 
         this.setState({
           fullname: "",
@@ -48,7 +45,7 @@ export class Checkout extends Component {
       };
       handleFormSubmit(e) {
         // e.preventDefault();
-          if(this.fullname!==undefined && this.email!==undefined && this.pnumber!==undefined && this.city!==undefined && this.address!==undefined){
+          if(this.fullname!==null && this.email!==null && this.pnumber!==null && this.city!==null && this.address!==null){
       Swal.fire({
         html: ' <br/> <b>Yeah! You Have Ordered Successfully</b><br/>',
         title: 'GrubEats',

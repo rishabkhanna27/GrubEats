@@ -9,9 +9,8 @@ export class NavBar extends Component{
             <div>
                 
             <Navbar className="navi" expands="lg">
-            <Navbar.Brand className=" brand text-white">RK
+            <Navbar.Brand className=" brand text-white">GE
             </Navbar.Brand>
-            {/* <Navbar.Toggle aria-controls="basic-navbar-nav"/> */}
             <Navbar.Collapse id="basic-navbar-nav">
             <Nav>
             <NavLink className="navii let d-inline p-4 text-white" to="/">Home</NavLink>
